@@ -9,9 +9,8 @@ import { TransactionContext } from './context/TransactionContext';
 import ThemeSettings from './components/ThemeSettings';
 import Header from './components/Header';
 import Transactions from './page/Transactions';
-import Services from './page/Services';
-import Home from './page/Home';
-import Login from './page/Login';
+import Home from './page/home/Home';
+
 
 const App = () => {
 

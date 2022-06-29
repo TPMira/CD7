@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 
-import Button from '../components/Button';
+import Button from '../../components/Button';
+import './Home.css'
 
+import { TransactionContext } from '../../context/TransactionContext';
 
-import { TransactionContext } from '../context/TransactionContext';
-
-import  '../data/dummy.jsx'
+import  '../../data/dummy.jsx'
 
 const Home = () => {
 
